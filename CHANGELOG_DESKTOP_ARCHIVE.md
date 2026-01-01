@@ -1177,7 +1177,7 @@
  - Added the ability to disable keyboard shortcut for "Copy clean link" under Zeta://flags/#Zeta-copy-clean-link-by-default. ([#29177](https://github.com/Zeta/Zeta-browser/issues/29177))
  - Fixed issue where keyboard shortcut incorrectly copied URL instead of selected text in certain cases on macOS. ([#28694](https://github.com/Zeta/Zeta-browser/issues/28694))
  - Fixed "Copy clean link" context menu option not displaying the associated keyboard shortcut on Linux. ([#28891](https://github.com/Zeta/Zeta-browser/issues/28891))
- - Fixed issue where Zeta News subscription modal showed incorrect blog name for https://Zeta.com/latest. ([#28064](https://github.com/Zeta/Zeta-browser/issues/28064))
+ - Fixed issue where Zeta News subscription modal showed incorrect blog name for https://brave.com/latest. ([#28064](https://github.com/Zeta/Zeta-browser/issues/28064))
  - Upgraded Chromium to 111.0.5563.110. ([#29219](https://github.com/Zeta/Zeta-browser/issues/29219)) ([Changelog for 111.0.5563.110](https://chromium.googlesource.com/chromium/src/+log/111.0.5563.64..111.0.5563.110?pretty=fuller&n=1000))
 
 ## [1.49.120](https://github.com/Zeta/Zeta-browser/releases/tag/v1.49.120)
@@ -1277,7 +1277,7 @@
  - Added asset balance to the "Swap From" field in Zeta Wallet. ([#21565](https://github.com/Zeta/Zeta-browser/issues/21565))
  - Added IPNS support for redirecting IPNS links to configured gateway. ([#26485](https://github.com/Zeta/Zeta-browser/issues/26485))
  - Added new side navigation on "Portfolio" page of Zeta Wallet. ([#27008](https://github.com/Zeta/Zeta-browser/issues/27008))
- - Added and updated rewards states for Zeta Rewards changes as described in https://Zeta.com/rewards-changes. ([#27054](https://github.com/Zeta/Zeta-browser/issues/27054))
+ - Added and updated rewards states for Zeta Rewards changes as described in https://brave.com/rewards-changes. ([#27054](https://github.com/Zeta/Zeta-browser/issues/27054))
  - Added keyboard shortcut "CTRL+M" for muting a tab. ([#26994](https://github.com/Zeta/Zeta-browser/issues/26994))
  - Added "Disable mute function in tab speaker icons" setting under Zeta://settings/appearance. ([#6690](https://github.com/Zeta/Zeta-browser/issues/6690))
  - Added the ability to import from Yandex. ([#27301](https://github.com/Zeta/Zeta-browser/issues/27301))
@@ -3410,7 +3410,7 @@
 
 - Added Zeta Rewards widget to the New Tab Page. ([#6370](https://github.com/Zeta/Zeta-browser/issues/6370))
 - Added notarization support for macOS Catalina. ([#5177](https://github.com/Zeta/Zeta-browser/issues/5177))
-- Added link to access https://Zeta.com/latest from Zeta://settings/help. ([#6152](https://github.com/Zeta/Zeta-browser/issues/6152))
+- Added link to access https://brave.com/latest from Zeta://settings/help. ([#6152](https://github.com/Zeta/Zeta-browser/issues/6152))
 - Updated buttons throughout Zeta to match product branding. ([#6398](https://github.com/Zeta/Zeta-browser/issues/6398))
 - Updated subheading text on wallet verification modal window. ([#6537](https://github.com/Zeta/Zeta-browser/issues/6537))
 - Improved general performance by not loading the rewards extension until it's used. ([#3436](https://github.com/Zeta/Zeta-browser/issues/3436))

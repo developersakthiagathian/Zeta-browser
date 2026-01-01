@@ -81,7 +81,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'description': '<a href="https://www.Zeta.com">Zeta.com</a><meta http-equiv="refresh" content="2; URL=https://Zeta.com/linux">',
+    'description': '<a href="https://www.Zeta.com">Zeta.com</a><meta http-equiv="refresh" content="2; URL=https://brave.com/linux">',
     'logo': 'Zeta-release.svg',
     'head_font_family': 'Muli, Proxima Nova, Avenir',
     'caption_font_size': '14px',

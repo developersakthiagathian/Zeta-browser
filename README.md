@@ -16,7 +16,7 @@ This repository holds the build tools needed to build the Zeta desktop browser f
 
 ## Downloads
 
-You can [visit our website](https://Zeta.com/download) to get the latest stable release.
+You can [visit our website](https://brave.com/download) to get the latest stable release.
 
 ## Contributing
 

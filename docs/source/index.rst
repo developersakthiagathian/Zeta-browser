@@ -5,4 +5,4 @@
 Zeta browser documentation
 ---------------------------
 
-This page has now moved to `Zeta.com/linux <https://Zeta.com/linux>`_
+This page has now moved to `Zeta.com/linux <https://brave.com/linux>`_
