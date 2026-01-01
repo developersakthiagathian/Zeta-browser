@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-author = 'Zeta Software'
+author = 'DeveloperSakthiAgathian'
 project = 'Zeta browser'
 copyright = '2025, Zeta Software'
 

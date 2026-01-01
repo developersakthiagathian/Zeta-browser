@@ -1,4 +1,4 @@
-.. Copyright (c) 2020 Zeta Software
+.. Copyright (c) 2020 brave Software
 
 .. _rs_welcome:
 
