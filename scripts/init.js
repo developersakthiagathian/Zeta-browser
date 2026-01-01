@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The Brave Authors. All rights reserved.
+// Copyright (c) 2019 The Zeta Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -9,29 +9,29 @@ const path = require('path')
 const { spawnSync } = require('child_process')
 const util = require('../lib/util')
 
-Log.progress('Performing initial checkout of brave-core')
+Log.progress('Performing initial checkout of Zeta-core')
 
-const braveCoreDir = path.resolve(__dirname, '..', 'src', 'brave')
-const braveCoreRef = util.getProjectVersion('brave-core')
+const ZetaCoreDir = path.resolve(__dirname, '..', 'src', 'Zeta')
+const ZetaCoreRef = util.getProjectVersion('Zeta-core')
 
-if (!fs.existsSync(path.join(braveCoreDir, '.git'))) {
-  Log.status(`Cloning brave-core [${braveCoreRef}] into ${braveCoreDir}...`)
-  fs.mkdirSync(braveCoreDir)
-  util.runGit(braveCoreDir, ['clone', util.getNPMConfig(['projects', 'brave-core', 'repository', 'url']), '.'])
-  util.runGit(braveCoreDir, ['checkout', braveCoreRef])
+if (!fs.existsSync(path.join(ZetaCoreDir, '.git'))) {
+  Log.status(`Cloning Zeta-core [${ZetaCoreRef}] into ${ZetaCoreDir}...`)
+  fs.mkdirSync(ZetaCoreDir)
+  util.runGit(ZetaCoreDir, ['clone', util.getNPMConfig(['projects', 'Zeta-core', 'repository', 'url']), '.'])
+  util.runGit(ZetaCoreDir, ['checkout', ZetaCoreRef])
 }
-const braveCoreSha = util.runGit(braveCoreDir, ['rev-parse', 'HEAD'])
-Log.progress(`brave-core repo at ${braveCoreDir} is at commit ID ${braveCoreSha}`)
+const ZetaCoreSha = util.runGit(ZetaCoreDir, ['rev-parse', 'HEAD'])
+Log.progress(`Zeta-core repo at ${ZetaCoreDir} is at commit ID ${ZetaCoreSha}`)
 
 let npmCommand = 'npm'
 if (process.platform === 'win32') {
   npmCommand += '.cmd'
 }
 
-util.run(npmCommand, ['install'], { cwd: braveCoreDir })
+util.run(npmCommand, ['install'], { cwd: ZetaCoreDir })
 
 util.run(npmCommand, ['run', 'sync' ,'--', '--init'].concat(process.argv.slice(2)), {
-  cwd: braveCoreDir,
+  cwd: ZetaCoreDir,
   env: process.env,
   stdio: 'inherit',
   shell: true,

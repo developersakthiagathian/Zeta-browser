@@ -1,8 +1,8 @@
-.. Copyright (c) 2020 Brave Software
+.. Copyright (c) 2020 Zeta Software
 
 .. _rs_welcome:
 
-Brave browser documentation
+Zeta browser documentation
 ---------------------------
 
-This page has now moved to `brave.com/linux <https://brave.com/linux>`_
+This page has now moved to `Zeta.com/linux <https://Zeta.com/linux>`_
